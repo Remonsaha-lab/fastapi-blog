@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+pyvenv.cfg
+Scripts/
+Lib/
+Include/
+
+# VS Code settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS files
+.DS_Store
+Thumbs.db__pycache__
+Fast_api
+.DS_Store
