@@ -35,6 +35,7 @@ def verifyToken(token: str) -> TokenData:
         email: str = payload.get("sub")
         if email is None:
             raise credentials_exception
-        return TokenData(email=email)
+        # Map email to username field in TokenData schema
+        return TokenData(username=email)
     except JWTError:
         raise credentials_exception
